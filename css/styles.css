@@ -6,7 +6,9 @@ body{
     font-size: 11px;
     line-height: 1.4;
     font-weight: 500;
+    overflow-x: hidden;
 }
+
 .text-area{
     margin-top: 90px;
     margin-left: 85px;
@@ -23,6 +25,9 @@ body{
 }
 
 #circle-wrap{
+    position: relative;
+    margin-left: 24px;
+    margin-top: 42px;
 }
 
 
@@ -30,6 +35,7 @@ body{
     width: 246px;
     height: 246px;
     border-radius: 50%;
+    position: absolute;
 }
 
 .circle:nth-child(1){
@@ -37,14 +43,17 @@ body{
     border: 1px solid black; 
     /* border 기본 아웃인데 box-sizing:border-box 해주면 안으로 들어가서 아주 작은 디테일이지만 사이즈는 그대로 */
     opacity: 0.2;
+    box-sizing: border-box;
 }
 
 .circle:nth-child(2){
     background-color: #ffc000;
+    left: 100px;
 }
 
 .circle:nth-child(3){
-    background-color: #fedd15
+    background-color: #fedd15;
+    left: 200px;
 }
 
 #badge{
@@ -58,4 +67,7 @@ body{
     font-size: 9px;
     line-height: 11px;
     box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    right: 24px;
 }
