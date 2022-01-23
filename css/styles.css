@@ -25,3 +25,24 @@ ul,li{
     margin: 0;
     padding: 0;
 }
+
+input{
+    background-color: rgba(255,255,255,0.08);
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    transition: all ease 300ms;
+}
+
+input:focus{
+    outline: none;
+    background-color:rgba(255,255,255,0.12);
+}
+
+input::placeholder{
+    color: rgba(255,255,255,0.3);
+    text-align: center;
+}

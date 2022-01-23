@@ -2,7 +2,7 @@
   height: 310px;
   background-color: black;
   position: relative;
-  background-image: url("/photo.jpg");
+  background-image: url("/img/photo.jpg");
   background-size: cover;
 }
 
@@ -36,7 +36,7 @@ sup {
 
 .swiper li {
   display: inline-block;
-  background-image: url("/photo.jpg");
+  background-image: url("/img/photo.jpg");
   width: 136px;
   height: 80px;
   background-size: cover;
